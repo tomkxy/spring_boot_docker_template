@@ -26,6 +26,7 @@ jar {
     version =  '0.1.0'
 }
 
+
 // tag::task[]
 task buildDocker(type: Docker, dependsOn: build) {
   push = true
